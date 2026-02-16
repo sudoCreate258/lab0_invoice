@@ -1,13 +1,15 @@
-from helper import *
+from my_functions import get_plaintext, check_equals, get_alpha_lst
 # DO NOT UPDATE CODE ABOVE THIS LINE
 
-#TODO: (Input) Assign data to the variables.
-#TODO: (Process) Calculate the total amount.
-#TODO: (Output) Display invoice with information on the sale. 
+#TODO: (Input)   Assign data to the variables.
+alpha_lst = get_alpha_lst()
 
-"""
-Ready for the extra credit?
+#TODO: (Process) Manipulate the string.
+#TODO: (Output)  Display the asserted cipher text.
 
-TAX_RATE = get_tax_rate(False)
-print(TAX_RATE)
-"""
+
+'''
+# Ready for the extra credit?
+
+assert check_equals(exp,act,False), "this should fail"
+'''
