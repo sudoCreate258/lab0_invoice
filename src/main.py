@@ -9,5 +9,5 @@ from helper import *
 Ready for the extra credit?
 
 TAX_RATE = get_tax_rate(False)
-print(x)
+print(TAX_RATE)
 """
